@@ -11,9 +11,9 @@ A module designed for audio processing : audio recording and basic feature extra
    8. Get_In_Volume : To read the current Audio input volume 
   
 2. AudioProc.py : This module contain methods for basic audio feature extraction (python module librosa used for feature extraction)
-   1.Load_Audio : For loading wave file from disk for processing (can be mono or stereo)
-   2.Get_Rms_Stereo : To get Root Mean Square value of stereo audio
-   3.Get_Zcr_Stereo : To get Zero Crossing Rate value of stereo audio
-   4.Get_Rms_Diff : To get RMS difference of stereo channel (Majorly for DOA application)
-   5.Get_Rms : To get Root Mean Square value of mono audio
-   6.Get_Zcr : To get Zero Crossing Rate value of mono audio
+   1. Load_Audio : For loading wave file from disk for processing (can be mono or stereo)
+   2. Get_Rms_Stereo : To get Root Mean Square value of stereo audio
+   3. Get_Zcr_Stereo : To get Zero Crossing Rate value of stereo audio
+   4. Get_Rms_Diff : To get RMS difference of stereo channel (Majorly for DOA application)
+   5. Get_Rms : To get Root Mean Square value of mono audio
+   6. Get_Zcr : To get Zero Crossing Rate value of mono audio
